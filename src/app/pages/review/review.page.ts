@@ -54,7 +54,7 @@ export class ReviewPage implements OnInit {
     const modal = await this.modal.create({
       component:ReviewsFormComponent,
       componentProps:{
-        assignment:review
+        review:review
       },
       cssClass:"modal-full-right-side"
     });
